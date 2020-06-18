@@ -7,6 +7,7 @@ Issues faced and their resolution.
 
 minikube start --vm-driver=virtualbox
 
+minikube start --memory 5120 --cpus=4 --vm-driver=virtualbox
 
 sudo pip3 install clash
 
@@ -35,7 +36,7 @@ cqlsh>
 https://github.com/kradio3/kubernetes-cassandra
 
 https://github.com/kradio3/kubernetes-cassandra <— worked
-
+https://towardsdatascience.com/when-to-use-cassandra-and-when-to-steer-clear-72b7f2cede76
 
 BigData References
 
@@ -61,3 +62,5 @@ https://medium.com/flant-com/running-cassandra-in-kubernetes-challenges-and-solu
 https://kubernetes.io/docs/tutorials/stateful-application/cassandra/
 
 Install KAFKA KAT it is under git/kubernetes-kafka
+
+https://towardsdatascience.com/when-to-use-cassandra-and-when-to-steer-clear-72b7f2cede76
